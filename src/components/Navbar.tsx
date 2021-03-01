@@ -45,7 +45,10 @@ export const Navbar = () => {
                 </button>
               </Link>
               <Link href={`/${username}`}>
-                <img src={user?.photoURL} className="mx-1" />
+                <img
+                  src={user?.photoURL}
+                  className="mx-1 w-10 h-10 rounded-full"
+                />
               </Link>
             </div>
           )}

@@ -8,7 +8,7 @@ import { Loader } from "@/components";
 
 export default function EnterPage({}) {
   const { user, username } = useContext(UserContext);
-  console.log(user);
+
   // 1. user signed out <SignInButton />
   // 2. user signed in, but missing username <UsernameForm />
   // 3. user signed in. has username <SignOutButton />
